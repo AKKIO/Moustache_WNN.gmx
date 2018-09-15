@@ -16,7 +16,12 @@
     <background>background\nkg_00</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_00</font>
+  </fonts>
   <objects name="objects">
+    <object>objects\GOD</object>
+    <object>objects\int_display_manager</object>
     <object>objects\obj_gun</object>
     <object>objects\obj_bullet_00</object>
     <object>objects\obj_camera</object>
@@ -24,6 +29,7 @@
     <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_display_net</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
