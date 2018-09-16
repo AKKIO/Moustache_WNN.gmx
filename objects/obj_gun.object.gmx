@@ -80,7 +80,7 @@ else image_yscale = 1;
 
 b1 = instance_create(x + lengthdir_x(len+4, image_angle), y + lengthdir_y(len+4, image_angle), bullet[0]);
 global.shake = true;
-obj_player.len = -1;
+obj_player.len = -2;
 </string>
           </argument>
         </arguments>

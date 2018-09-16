@@ -100,7 +100,7 @@ if hspd !=0 || vspd !=0{
 }else{
     sprite_index = spr_player_idle;
 }
-len = lerp(len, 3, 1);
+len = lerp(len, 3, .3);
 </string>
           </argument>
         </arguments>
